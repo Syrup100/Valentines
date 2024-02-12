@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		body {
+			text-align: center;
+            margin-top: 30px;
+            font-family: 'Courier';
+            background-color:#FFF5E4;
+            color: #FF9494;
+		}
+		#activityquestion {
+			font-size: 50px;
+            margin-bottom: 30px;
+		}
+		.activity-item {
+            display: inline-block;
+            margin: 10px;
+            vertical-align: top;
+			color: #FF9494;
+        }
+        .activity-item img {
+            width: 220px; 
+            height: auto;
+			padding: 10px;
+        }
+        .activity-item label {
+            display: block;
+        }
+		.button {
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            margin: 10px;
+            font-family: 'courier';
+            margin-bottom: 20px;
+            background-color:#FFE3E1;
+            color: #e67373;
+            border-radius: 12px;
+            border: 2px solid #FFE3E1;
+        }
+	</style>
+</head>
+<body>
+	<div id="activityquestion"><b>We will do this on Valentine's Day</b>
+	</div>
+<div id="activityquestion"><b><font size="5">Please check the box if you understood.</font></b>
+	</div>
+	<div class = "activities-selection">
+		<div class="activity-item">
+			<img src="UE.jpg" alt="UE">		
+<label><input type="checkbox" name="activities" value ="UE">UE Gastambide Gate</label>
+		</div>
+		<div class="activity-item">
+			<img src="Jeep.jpg" alt ="Jeep">
+			<label><input type="checkbox" name="activities" value ="Jeep">Jeep to SM Manila</label>
+		</div>
+		<div class="activity-item">
+			<img src="SM Manila.jpg" alt ="cinema">
+			<label><input type="checkbox" name="activities" value ="SM">SM Manila</label>
+		</div>
+		<div class="activity-item">
+			<img src="Dookki.jpg" alt ="Dookki">
+			<label><input type="checkbox" name="activities" value ="Dookki">Date in Dookki</label>
+		
+	</div><br>
+	<button class = "button" onclick="location.href='thankyou.html'">Thank You</button>
+</body>
+</html>
